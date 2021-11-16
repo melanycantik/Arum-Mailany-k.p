@@ -1,0 +1,45 @@
+Toko_Elektronik = "y"
+while Toko_Elektronik == "y" :
+    print("_________________________________")
+    print("program kasir toko Elektronik")
+    print("_________Toko Elektronik_________")
+    print("========================")
+    print("1. | Audio best seller |")
+    print("2. | Smart Gadget      |")
+    print("3. | Computer          |")
+    print("========================")
+
+    Toko_Elektronik = input ("silahkan memilih:")
+    if Toko_Elektronik == "1" :
+        print("Audio best seller")
+        print("================")
+        print("1. | Panasonic   |")
+        print("2. | LG          |")
+        print("3. | Sony        |")
+        print("================")
+    elif Toko_Elektronik == "2" :
+        print("Smart Gadget")
+        print("================")
+        print("1. | Samsung     |")
+        print("2. | Iphone      |")
+        print("3. | Oppo        |")
+        print("================")
+    elif Toko_Elektronik == "3" :
+        print("Computer")
+        print("================")
+        print("1. | Lenovo      |")
+        print("2. | Asus        |")
+        print("3. | Tosiba      |")
+        print("================")
+    else:
+        print("pilihan tidak tersedia")
+
+    print(19*"=")
+    pesan = input("Silahkan pilih yang ingin anda pesan: ")
+    jumlah = input("berapa porsi: ")
+    print(19*"=")
+    print("pilihan yang anda pesan: ")
+    print(19*"=")
+    pesanan = ()
+    print(f"1.{pesan} | {jumlah} jumlah")
+    Toko_Elektronik = input("apakah ada yang lain : (Y/T) ")
